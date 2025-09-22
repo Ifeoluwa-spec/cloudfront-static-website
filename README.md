@@ -1,11 +1,12 @@
 #Static Website with CloudFront
+
+
 ##Overview
-I already had a static site hosted on S3, but I wanted to take it further and make it look more “production ready.”
+I already had a static site hosted on S3, but I wanted to take it further and make it look more production ready.
 So in this project, I connected the S3 site to CloudFront (AWS CDN). Now the site loads faster, and all traffic gets redirected to HTTPS.
 
 ##Architecture
 1. S3 bucket → stores the static site files (index.html, css, etc.)
-
 2. CloudFront → distributes the content globally and handles HTTPS
    
 ## Steps i took
