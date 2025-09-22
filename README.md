@@ -18,11 +18,16 @@ So in this project, I connected the S3 site to CloudFront (AWS CDN). Now the sit
 6. Waited 20 minutes for CloudFront to finish deploying.
 
 ## Live Demo
-
-👉 View Website https://dxq2bvhpfgbul.cloudfront.net/
+View Website https://dxq2bvhpfgbul.cloudfront.net/
 S3 static hosting settings
 CloudFront distribution details
 Website loading on CloudFront domain
+
+## Screenshots 
+1. S3 static hosting settings
+2. CloudFront distribution details
+3. Website loading on CloudFront domain
+   
 ### What I Learned
 1. CloudFront takes time to deploy changes — patience required 😅.
 2. The S3 website endpoint is different from the bucket ARN (easy mistake to make).
